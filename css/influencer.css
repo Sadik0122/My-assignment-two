@@ -1,0 +1,153 @@
+
+/* main */
+
+
+/* Influencer Header */
+nav h1{
+    margin-top: 50px;
+    margin-left: 82px;
+    font-size: 35px;
+    color: brown;
+}
+nav .flex-direction{
+    display: flex;
+    margin-top: -60px;   
+    font-size: 25px;    
+}
+
+.flex-direction{
+     margin-left: 650px;              
+}
+nav li{
+    margin-right: 25px;     
+    list-style: none;   
+}
+nav ul li a{
+    text-decoration: none;
+    color: green; 
+}
+
+/* Our Section Part */
+.big-heading{
+    font-size: 65px;
+    color: rgb(99, 70, 9);
+}
+.flexible-container{
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+.half-width img{
+    width: 30%;
+    margin-left: 50px;
+    position: absolute;
+}
+.link-button{
+    text-decoration: none;
+    font-size: 18px;
+    background-image: linear-gradient(yellowgreen, orange);
+    padding: 6px 28px;
+    border-radius: 5px;
+    color: rgb(6, 85, 4);
+    font-weight: 800;
+}
+/* hr elements */
+hr{
+    border: 1px solid rgb(197, 193, 193);
+    margin-top: 250px;
+}
+.hr-two{
+    border: 1px solid rgb(197, 193, 193);
+    margin-top: 100px;
+}
+/* logo */
+.more-logo{
+    margin-left: 440px;
+    margin-top: -86px;
+}
+.gap1{
+    margin-right: 50px;
+}
+.gap2{
+    margin-right: 50px;
+}
+.gap3{
+    margin-right: 50px;
+}
+.gap4{
+    margin-right: 50px;
+}
+.gap5{
+    margin-right: 50px;
+}
+.gap6{
+    margin-right: 50px;
+}
+.gap7{
+    margin-right: 50px;
+}
+/* Collection parts */
+.courses{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: -24px;
+}
+.course{
+    text-align: center;
+    margin-right: 125px;
+    padding: 65px;
+}
+.container{
+    width: 50%;
+
+}
+/* star */
+.fa-star.filled{
+    color: #FFC014;
+}
+.fa-star.empty{
+    color: gray;
+}
+.middle-link-button{
+    margin-left: 90px;
+    text-decoration: none;
+    font-size: 18px;
+    background-image: linear-gradient(orange, green);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+/* last-section */
+
+.last-link-button{
+    text-decoration: none;
+    font-size: 25px;
+    background-image: linear-gradient(green, blue);
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 900;
+}
+.final-last-heading-one{
+    font-size: 50px;
+    color:rgb(6, 85, 4);
+}
+.our-footer{
+    background-color: rgb(7, 7, 73);
+    padding: 25px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    margin-top: 10%;
+    
+}
+.our-brands{
+    padding: 15px;
+}
+.fa-facebook, .fa-twitter, .fa-youtube, .fa-linkedin{
+    font-size: 45px;
+}
